@@ -1,5 +1,5 @@
 
-# Sistema de Endereço - ViaCEP👀😎✌
+# Sistema de Endereço - ViaCEP
 
 
 
@@ -66,9 +66,7 @@ Classes Principais
 ### 4° Exemplo de Uso
 ° Para consultar um endereço pelo CEP, envie uma requisição GET
 
-#GET /api/enderecos/{cep}
-
-
+°GET /api/enderecos/{cep}
 
 
 
@@ -78,7 +76,7 @@ Classes Principais
  {
   "cep": "01001-000",
   "logradouro": "Praça da Sé",
-  "complemento": "lado ímpar",
+   "complemento": "lado ímpar",
   "bairro": "Sé",
   "localidade": "São Paulo",
   "uf": "SP",
